@@ -1,7 +1,7 @@
 
 # Discord-Bot-Rust
 
-A simple implementation of the serenity.rs crate in rust made with ease-of-use in mind.
+A simple implementation of the serenity.rs crate in rust made with ease-of-use in mind. You need the tokio and serenity crate to be able to use this.
 
 
 ## How to use
