@@ -3,6 +3,12 @@
 
 A simple implementation of the serenity.rs crate in rust made with ease-of-use in mind. You need the tokio and serenity crate to be able to use this.
 
+## How to run
+
+#### Run using the command below in your console
+```
+BOT_TOKEN="Insert bot token here" GUILD_ID=<insert guild id here, must be an integer> cargo run src/main.rs
+```
 
 ## How to use
 
