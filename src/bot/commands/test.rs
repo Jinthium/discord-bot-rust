@@ -9,8 +9,8 @@ pub fn register() -> CreateCommand {
 
 pub fn run(_options: &[ResolvedOption]) -> String {
     if let Some(ResolvedOption {value: ResolvedValue::Attachment(attachment), ..}) = _options.first() {
-        format!("Attachment name: {}, attachment size is about: {:.2}mb", attachment.filename, attachment.size as f64 / 1_000_000.0)
-    }else{
-        "Attachment not valid".to_string()
+        return format!("Attachment name: {}, attachment size is about: {:.2}mb", attachment.filename, attachment.size as f64 / 1_000_000.0)
     }
+
+    "Attachment not valid".to_string()
 }
